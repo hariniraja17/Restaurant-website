@@ -1,0 +1,130 @@
+body{
+    background-image:url(7d97db9a594fbb3a31fdde520ce3decd.jpg);
+ }
+ #Header {
+ border-radius:20 px;
+   background-color:red;
+ }
+ 
+ .navbar a{
+   border-style:groove;
+   border-radius:8px;
+   background-color: light-#80005c;
+   padding: 20px 30px;
+   font-size:30px;
+   color:purple;
+   border-color: #eb24eb;
+   text-align: center;
+   background-color:#ed8aed;
+   margin:10px;
+   display:inline-block;
+ }
+ /*hover->a link when the user mouses over it*/
+ .navbar a:hover {
+   background-color:blue;
+   color:white;
+ 
+ }
+ 
+ 
+ h1{
+   font-size:46px; 
+   color:black;
+ text-align:center;
+   color:yellow;
+ }
+ h2{
+   font-size:30px;
+   color:black;
+   color:red;
+ }
+ h3{
+   font-size:30px;
+   text-align: center;
+   color:white;
+ }
+ h4{
+   font-size:30px;
+   color:white;
+ }
+ h5{
+   font-size:20px;
+   font-family:cursive;
+   color:purple;
+ }
+ h6{
+   font-size:46px; 
+   text-align:center;
+   color:aqua;
+ }
+ h7{
+   font-size:15px;
+   color:white;
+ }
+ p{
+   font-size:20px;
+   font-family:cursive;
+   color:#21dee2;
+ }
+ /*li{
+   list-style: none;
+   display:flex;
+   justify-content: center;
+ }*/
+ .column {
+   float: left;
+   width: 33.33%;
+   padding: 5px;
+ }
+ /* Clear floats after image containers */
+ .row:after {
+   content: "";
+   clear: both;
+   display: flex;
+ }
+ .btn{
+   font-size:15px;
+   color:white;
+   border:10px solid orange;
+   text-transform: uppercase;
+   font-weight:300;
+ position:relative;
+   overflow:hidden;
+   border-radius:3px;
+   background-color:orange;
+ }
+ .btn:hover{
+ background-color:blue;
+ color:white;
+ }
+ /*.btn::before{
+   content:"";
+   position:absolute;
+   top:0;
+   left:0;
+   z-index:-1;
+   width:200px;
+   height:100px;
+   background:orange;
+ }*/
+ img{
+   object-fit:cover;
+   transform:rotateY(35deg);
+   border-color: white;
+   border-width: thick;
+   border-style: solid;  
+ }
+ .column:hover img{
+   cursor:center;
+ }
+ .column img:hover{
+   transform:rotateY(0deg) scale(1.5);
+   opacity:1;
+ }
+ .contact{
+   color:white;
+ }
+ 
+ 
+ 
+ 
